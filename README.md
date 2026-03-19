@@ -1,4 +1,4 @@
-[readme.txt](https://github.com/user-attachments/files/26123363/readme.txt)
+(https://github.com/user-attachments/files/26123363/readme.txt)
 This spatial shader automatically adjusts black and white levels to maintain consistently high image contrast without color clipping.
 
 The "NaRKoM_Fix_Contrast" shader takes random pixels from the image and, based on these pixels, analyzes the current minimum black level and maximum white level. It then adjusts their black and white levels to the maximum value, being careful not to make the image too dark. It does this smoothly to prevent flickering.
